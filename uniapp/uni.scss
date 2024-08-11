@@ -1,0 +1,474 @@
+@import "cl-uni-2/theme.scss";
+@import 'uview-ui/theme.scss';
+/* 默认主题色 */
+$cl-color-primary: #409eff;
+$cl-color-default: #dcdfe6;
+$cl-color-success: #0cad17;
+$cl-color-warning: #e6a23c;
+$cl-color-error: #ea424f;
+$cl-color-info: #909399;
+$cl-color-disabled: #c0c4cc;
+.prodfile_avatar{
+	border-radius: 50%;
+	width: 300rpx;
+	height: 300rpx;
+}
+/deep/ .btn_600 .cl-button{
+	width: 600rpx;
+}
+/deep/ .btn_300 .cl-button{
+	width: 300rpx;
+} 
+/deep/ .btn_200 .cl-button{
+	width: 200rpx;
+}  
+.space-m-tb-20{
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.space-m-lr-20{
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+.space-rel{
+	position: relative;
+}
+.space-ab{
+	position: absolute;
+}
+.space-p-l-10{
+	padding-left: 10rpx;
+}
+.space-p-l-20{
+	padding-left: 20rpx;
+}
+.space-p-l-30{
+	padding-left: 30rpx;
+}
+.space-p-r-10{
+	padding-right: 10rpx;
+}
+.space-p-r-20{
+	padding-right: 20rpx;
+}
+.space-p-r-30{
+	padding-right: 30rpx;
+}
+.space-relative{
+	position: relative; 
+}
+.cl-badge__content {
+    display: inline-block;
+    height: 16rpx;
+    min-width: 16rpx;
+    line-height: 16rpx;
+    position: absolute;
+    top: -28rpx;
+    right: -14rpx;
+    background-color: #dd524d;
+    color: #fff;
+    font-size: 24rpx;
+    text-align: center;
+    white-space: nowrap;
+    border: 4rpx solid white;
+    border-radius: 20rpx;
+    padding: 8rpx;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.space-add-icon{
+	width: 50rpx;
+	height: 50rpx;
+	background:royalblue;
+	border-radius: 50%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50rpx; 
+	line-height: 44rpx;
+} 
+.space-dash-t{
+	border-top: 2rpx dashed #eee;padding-bottom: 30rpx;
+}
+.space-dash-b{
+	border-bottom: 2rpx dashed #eee;padding-bottom: 30rpx;
+}
+.space-line-center{
+	text-decoration:line-through;
+	color: $cl-color-info;
+}
+.green{
+	color: $cl-color-success;
+}
+.blue{
+	color: $cl-color-primary;
+}
+.warning{
+	color: $cl-color-warning;
+}
+.primary {
+	color: $cl-color-primary;
+}
+.grey {
+	color: $cl-color-disabled;
+}
+.big-upload {
+	height: 300rpx;
+	width: 300rpx;
+	border: 4rpx solid #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 36rpx;
+}
+.tip {
+	font-size: 28rpx;
+}
+.ok {
+	color: $cl-color-success;
+}
+.err,
+.error {
+	color: $cl-color-error;
+}
+.card {
+	border-radius: 10rpx;
+	background-color: #fff;
+	padding: 20rpx;
+	margin-bottom: 10rpx;
+}
+.space-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fixed-right-del {
+	position: fixed;
+	top: 40%;
+	right: 10rpx;
+	writing-mode: tb-rl;
+	font-size: 22rpx;
+	border: 2rpx solid #eeeeee;
+	color: #fff;
+	background-color: $cl-color-error;
+	padding-left: 6rpx;
+	padding-right: 6rpx;
+	padding-top: 26rpx;
+	padding-bottom: 16rpx;
+	border-right: 0;
+	letter-spacing: 10rpx;
+	z-index: 99;
+}
+.space-m-l-10{
+	margin-left: 10rpx;
+}
+.space-m-l-20{
+	margin-left: 20rpx;
+}
+.space-m-l-30{
+	margin-left: 30rpx;
+}
+.space-m-r-10{
+	margin-right: 10rpx;
+}
+.space-m-r-20{
+	margin-right: 20rpx;
+}
+.space-m-r-30{
+	margin-right: 30rpx;
+}
+.t-center {
+	text-align: center;
+	align-items: center;
+}
+.space-0 {
+	padding: 0 !important;
+}
+.space-m-t-b-10 {
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+}
+.space-m-t-b-20 {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.space-m-t-10 {
+	margin-top: 10rpx;
+}
+.space-m-t-20 {
+	margin-top: 20rpx;
+}
+
+.space-m-t-30 {
+	margin-top: 30rpx;
+}
+.space-m-b-10 {
+	margin-bottom: 10rpx;
+}
+.space-m-b-20 {
+	margin-bottom: 20rpx;
+}
+.space-m-b-30 {
+	margin-bottom: 30rpx;
+}
+.radius-10 {
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.border-bottom{
+	border-bottom: 2rpx solid #EEE;
+}
+/deep/ .cl-popup__wrapper.is-open .cl-popup {
+	border-radius: 10rpx;
+}
+/deep/ .card .cl-list-item__container{
+	padding-left: 0 !important;
+}
+.space-badge{
+	background-color: $cl-color-error;
+	color: #ffffff;
+	position: absolute;
+	top: 10rpx;
+	right: 10rpx;
+	border-radius: 50%;
+	padding: 6rpx 20rpx 6rpx 20rpx;
+	font-size: 22rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.space-flex {
+	display: flex; 
+	align-items: center;
+}
+.space-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.space-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.space-bottom-20 {
+	margin-bottom: 20rpx;
+}
+.space-v-top {
+	display: flex;
+	align-items: flex-start;
+}
+.space-top-20 {
+	margin-top: 20rpx;
+}
+.space-top-10 {
+	margin-top: 10rpx;
+}
+.space-bottom-10 {
+	margin-bottom: 10rpx;
+}
+.space-bottom-50 {
+	margin-bottom: 50rpx;
+}
+.space-p-bottom-50 {
+	padding-bottom: 50rpx;
+}
+.space-p-bottom-100 {
+	padding-bottom: 100rpx;
+}
+.space-start {
+	display: flex;
+}
+.active {
+	background-color: $cl-color-success !important;
+	color: #fff;
+}
+.b {
+	font-weight: bold;
+}
+.space-column {
+	display: flex;
+	flex-direction: column;
+}
+.space-column-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.fix-top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	background: #f7f7f7;
+}
+.fix-bottom {
+	position: fixed;
+	bottom: -2rpx;
+	width: 100%;
+	z-index: 99;
+	padding-bottom: 20rpx; 
+	/deep/ .cl-button { 
+		font-size: 36rpx;
+		height: 100rpx;
+		line-height: 100rpx;
+	}
+	.space-between{
+		margin-left: 20rpx;
+		margin-right: 20rpx;
+	}
+	.a{
+		margin-left: 20rpx;
+		margin-right: 20rpx;
+	}
+	.b{
+		width: 50% !important;
+		margin-right: 10rpx;
+	}
+	.c{
+		margin-left: 10rpx;
+		width: 50% !important;
+	}
+}
+.space-right-20 {
+	margin-right: 20rpx;
+}
+.space-20 {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+.font-small {
+	font-size: 26rpx !important;
+}
+.red {
+	color: red;
+}
+.text-26 {
+	font-size: 26rpx;
+	font-weight: normal;
+}
+.text-36 {
+	font-size: 36rpx;
+	font-weight: normal;
+}
+.text-56 {
+	font-size: 56rpx;
+	font-weight: normal;
+}
+/deep/ .cl-card__container {
+	position: relative;
+	.cl-list-item__container {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+/deep/ .cl-search {
+	background-color: #f7f7f7;
+}
+.space-fixed-top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+}
+.w-100 {
+	width: 100%;
+	.cl-button {
+		width: 100%;
+		line-height: 80rpx !important;
+		height: 80rpx !important;
+		font-size: 43rpx !important;
+	}
+}
+.title{
+	font-weight: bold;
+	margin-bottom: 30rpx;
+	font-size: 36rxp;
+}
+.h-80{
+	height: 80rpx;line-height: 80rpx;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: end;
+}
+
+/**
+ * scss预处理 内置的常用样式变量
+*/
+.line_bottom{
+	border-bottom: 2rpx solid #eee;
+}
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$uni-color-primary: #40AE36;
+$uni-color-success: #07c160;
+$uni-color-warning: #F55726;
+$uni-color-error: #EB0909;
+$uni-color-blue: #007AFF;
+$uni-color-black: #000000;
+$uni-color-white: #ffffff;
+$uni-color-pink:#f74d54;
+$uni-color-orange:#f8683c;
+$uni-color-link:#586c94;
+
+
+/* 文字基本颜色 */
+$uni-text-color:#333;//基本色
+$uni-text-color-inverse:#fff;//反色
+$uni-text-color-grey:#999;//辅助灰色
+$uni-text-color-gray:#888;//辅助灰色
+$uni-text-color-placeholder: #bfbfbf;
+$uni-text-color-disable:#c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color:#ffffff;
+$uni-bg-color-grey:#F8F8F8;
+$uni-bg-color-hover:#ECECEC;//点击状态颜色
+$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+
+/* 边框颜色 */
+$uni-border-color:rgba(0, 0, 0, 0.1);
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm:24rpx;
+$uni-font-size-base:28rpx;
+$uni-font-size-lg:32rpx;
+
+/* 图片尺寸 */
+$uni-img-size-sm:40rpx;
+$uni-img-size-base:52rpx;
+$uni-img-size-lg:80rpx;
+
+/* Border Radius */
+$uni-border-radius-sm: 4rpx;
+$uni-border-radius-base: 6rpx;
+$uni-border-radius-lg: 12rpx;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 10rpx;
+$uni-spacing-row-base: 20rpx;
+$uni-spacing-row-lg: 30rpx;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 24rpx;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2C405A; // 文章标题颜色
+$uni-font-size-title:40rpx;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle:36rpx;
+$uni-color-paragraph: #3F536E; // 文章段落颜色
+$uni-font-size-paragraph:30rpx;
